@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style..css">
+    <title>JavaScript on Steroids</title>
+</head>
+
+<body>
+
+    <div class="container-1">
+
+        <h2>Challenge 1: Your Age in Days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click Me</button>
+            </div>
+
+            <div>
+                <button class="btn btn-danger" onclick="reset()">reset</button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+    <div class="container-2">
+        <h2>Challenge 2: Cat Generator</h2>
+        <div> <button class="btn btn-success" id="car-generator" onclick="addCat()">Generate Cat</button></div>
+
+
+        <div class="flex-box-container-2" id="flex-box-gen"> </div>
+
+
+    </div>
+    <div class="container-3">
+        <h2>CHallenge 3: Rock, Paper, Scissors</h2>
+        <div class="flex-box-rps" id="flex-boxrps-div">
+            <img id="rock" src="https://lh3.googleusercontent.com/proxy/njKhBJfsGul80vq9cP6ViAwBRBYrgnKQlj4PTb-vmqAdiuH2g488OuHbtZR7tM3iC5xg8ePTGk0CWKrLEzOXlooK" height="150" width="150" onclick="rpsGame(this)">
+            <img id="paper" src="https://cdn.clipart.email/7017a7cc69997a266bc0ccb84b7b137c_cartoon-notebook-paper-clip-notebook-paper-clipart-hd-png-_860-1035.png" height="150" width="150" onclick="rpsGame(this)">
+            <img id="scissots" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQL9Tcu035tHx2S4tNPqtlqr_B_NV7Mr5IRMKVCSHI2rXqDsS2C&usqp=CAU" height="150" width="150" onclick="rpsGame(this)">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
